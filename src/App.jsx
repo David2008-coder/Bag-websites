@@ -56,7 +56,7 @@ import { Navbar } from './Components/Navbar.jsx';
 import { Hero } from './Components/Hero.jsx';
 import { Products } from './Components/Products.jsx';
 import { Footer } from './Components/Foooter.jsx';
-import Customer from './components/Customer.jsx';
+import {Customer} from './Components/Customer.jsx';
 
 // IMPORT IMAGES
 import bagass1 from './assets/bagass1.png';
