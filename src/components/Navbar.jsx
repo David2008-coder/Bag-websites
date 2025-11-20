@@ -1,6 +1,6 @@
 import './Navbar.css';
 
-export const Navbar = ({ menuOpen, setMenuOpen, cart4 }) => (
+const Navbar = ({ menuOpen, setMenuOpen, cart4 }) => (
   <nav className="navbar">
     <div className="nav-logo">BAGIFY</div>
     <ul className="nav-links">
@@ -26,3 +26,6 @@ export const Navbar = ({ menuOpen, setMenuOpen, cart4 }) => (
     )}
   </nav>
 );
+
+
+export default Navbar;

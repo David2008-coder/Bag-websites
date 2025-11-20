@@ -1,5 +1,5 @@
 import './Products.css'
-export const Products = ({ bags, cartpro, stars }) => (
+const Products = ({ bags, cartpro, stars }) => (
 <section className="products" id='collections'>
 <h2>Featured Bags</h2>
 <div className="product-grid">
@@ -15,3 +15,5 @@ export const Products = ({ bags, cartpro, stars }) => (
 </div>
 </section>
 );
+
+export default Products;

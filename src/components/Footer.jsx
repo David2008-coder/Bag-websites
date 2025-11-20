@@ -1,5 +1,5 @@
 import './Footer.css'
-export const Footer = ({ facebook, instagram, twitter, youtube, map, envelope, phone }) => (
+const Footer = ({ facebook, instagram, twitter, youtube, map, envelope, phone }) => (
 <footer className="footer" id='contact'>
 <div>
 <h3>BAGIFY</h3>
@@ -22,3 +22,5 @@ export const Footer = ({ facebook, instagram, twitter, youtube, map, envelope, p
 </div>
 </footer>
 );
+
+export default Footer;

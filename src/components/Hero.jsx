@@ -1,5 +1,5 @@
 import './Hero.css'
-export const Hero = ({ bag2, search3 }) => (
+const Hero = ({ bag2, search3 }) => (
 <section className="hero" id="home">
 <div className="hero-text">
 <h1>Luxury Bags for Every Style</h1>
@@ -21,3 +21,5 @@ export const Hero = ({ bag2, search3 }) => (
 </div>
 </section>
 );
+
+export default Hero;
